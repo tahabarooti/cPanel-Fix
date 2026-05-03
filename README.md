@@ -9,14 +9,14 @@ One **`security-remediation.sh`** for **CVE-2026-41940** (cPanel), **CVE-2026-31
 ## Clone
 
 ```bash
-git clone https://github.com/MrAriaNet/cPanel-Fix.git
+git clone https://github.com/tahabarooti/cPanel-Fix.git
 cd cPanel-Fix
 chmod +x security-remediation.sh
 sudo ./security-remediation.sh              # assess only
 sudo ./security-remediation.sh --fix-all    # cPanel + kernel + merge CSF panel ports
 ```
 
-Publish as a new repo under your account (e.g. `https://github.com/MrAriaNet/cPanel-Fix`) with `git init`, `git add`, `git commit`, `git push`.
+Publish as a new repo under your account (e.g. `https://github.com/tahabarooti/cPanel-Fix`) with `git init`, `git add`, `git commit`, `git push`.
 
 ---
 
